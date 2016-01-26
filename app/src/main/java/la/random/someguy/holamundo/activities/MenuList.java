@@ -10,15 +10,12 @@ import android.widget.ListView;
 import android.content.Intent;
 
 
-/**
- * Created by someguy on 1/25/16.
- */
 public class MenuList  extends ListActivity {
 
     private String packageName = "la.random.someguy.holamundo.activities";
 
     // names of classes in the package
-    private String itemsArray[] = {"ToastDemo"};
+    private String itemsArray[] = {"ToastDemo", "Splash"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
